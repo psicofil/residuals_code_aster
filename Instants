@@ -1,0 +1,7 @@
+set title "Plot Time of computation"
+set ylabel 'Time Step'
+set xlabel 'Iterations'
+set grid
+plot "< cat *.29 | cut -c3-15 | grep -v 'I' | grep 'E'" title 'Ux' with lines,
+pause 1
+reread

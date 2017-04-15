@@ -1,0 +1,10 @@
+set logscale y
+set title "Plot Residuals"
+set ylabel 'Residuals'
+set xlabel 'Iterations'
+set format y "%g"
+set grid
+plot "< cat *.29 | cut -c54-65 | grep -v 'I' | grep 'E'" title 'RESI-GLOB-RELA' with lines,\
+"< cat *.29 | cut -c71-82 | grep -v 'I' | grep 'E'" title 'RESI-GLOB-MAXI' with lines,
+pause 1
+reread
