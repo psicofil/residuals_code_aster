@@ -1,10 +1,12 @@
-# residuals_code_aster
-Plot Time of computation and Residuals in Code_Aster ans ASTK
+# Plot Time of computation and Residuals in Code_Aster
 
-video demostration: https://www.youtube.com/watch?v=Oyp8X7ruOyM
+Plot Time of computation and Residuals in Code_Aster from ASTK.
+
+Video demostration: https://www.youtube.com/watch?v=Oyp8X7ruOyM
 
 # Use
-Execute Plot_Instants.sh and Plot_Residuals
+- Use the "UNITE" keyword in STAT_NON_LINE/AFFICHAGE (use UNITE 29)
+- Execute Plot_Instants.sh and Plot_Residuals in ASTK
 
 # Configuration in ASTK
 
