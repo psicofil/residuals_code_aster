@@ -2,6 +2,8 @@
 
 Plot Time of computation and Residuals in Code_Aster from ASTK.
 
+![ScreenShot](Preview01.png)
+
 Video demostration: https://www.youtube.com/watch?v=Oyp8X7ruOyM
 
 # Use
